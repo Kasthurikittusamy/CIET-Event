@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Eventregisteration</title>
+    <script src="script.js"></script>
+</head>
+    <body>
+        <center>
+        <div class="table">
+            <h1><b>Event Registeration</b></h1>
+            <form>
+                <table attribute="1">
+                    <tr>
+                        <td>Name</td><td><input type="text" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr>
+                        <td>Age</td><td><input type="number" placeholder="Enter your age"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td><td><input type="radio" name="Gender" >Male <input type="radio" name="Gender" >Female</td>
+                    </tr>
+                    <tr>
+                        <td>College Name</td><td><input type="text" placeholder="Enter your college name"></td>
+                    </tr>
+                    <tr>
+                        <td>Course</td><td><input type="text" placeholder="Enter your course"></td>
+                    </tr>
+                    <tr>
+                        <td>Contact</td><td><input type="number" placeholder="Enter your contact number"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td><td><input type="email" placeholder="Enter your mail id"></td>
+                    </tr>
+                    <tr>
+                        <td>Event</td><td>
+                            <select>
+                                <option>100M Running</option>
+                                <option>200M Running</option>
+                                <option>400M Running</option>
+                                <option>Relay</option>
+                                <option>Singing</option>
+                                <option>Dancing</option>
+                                <option>Drawing</option>
+                                <option>Debate</option>
+                                <option>Volley ball</option>
+                                <option>Throw ball</option>
+                                <option>Basket ball</option>
+                                <option>Foot ball</option>
+                             </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td id="one"><input type="reset"></td><td id="two"><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <input type="text" placeholder="home" id="reset" onclick="reset()">
+    </center>
+    </body>
+</html>
+<style>
+    .table{
+        font-size: larger;
+        margin-top: 8%;
+        line-height: 2;
+    }
+    #reset{
+        margin-top: 10px;
+        text-align: center;
+        transition: 0.6s;
+    }
+    #reset:hover{
+        cursor: pointer;
+        background-color: yellow;
+        color: black;
+        transform: scale(1.5);
+
+    }
+    *{
+        background-color: #666;
+        color:white;
+    }
+    
+   </style>

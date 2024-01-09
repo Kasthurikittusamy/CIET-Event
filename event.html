@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event management</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+     <div class="header">
+        
+         <h1 class="event"><i>Event management</i></h1>
+        
+        <ul>
+            <li id="li1" onclick="login()">login</li>
+            <li id="li2" onclick="admin()">Admin </li>
+            <li id="li3">Home</li>
+        </ul>
+    </div>
+    <div class="mainpicture">
+        <img src="profile.jpg" id="profileimage">
+          <p id="paragraph"><b>An event is a planned occurrence designed to bring people together for a specific purpose ,often to celebrate,inform,entertain, or commemorate.These gatherings can very widely in scale and nature,
+            encompassing anything from intimate family gatherings to large-scale conferences or festivals.
+            Events plays a crucial role in fastering connections,sharing informations, and creating
+            memorable experiences. They can be social,cultural,educational, or business oriented,providing a platform for
+            individuals to interact,share ideas and build lasting memories.</b>
+        </p>
+    </div>
+    <div class="firsthalf">
+    <div class="sidepictures">
+        
+        <img src="sports.jpg" id="sports" onclick="sports()">
+        
+        <p id="img1">Sports encompass a wide range of physical activities that involve skill, strategy and competition.Whether played individually
+            or in teams, sports contribute significantly to physical fitness,
+            mental well-being, and social interaction.
+        </p>
+        
+        <h1 class="one">Sports</h1>
+     </div>
+        <div class="halt">
+            
+            <img src="cultural.jpg" id="cultural" onclick="culturals()">
+            <p id="img2">
+                College culture is a vibrant tapestry woven with diverse threads of tradtions, beliefs, and expressions.
+                In the collegiate environment, cultural richness flourishes as students from various 
+                background to create a unique and dynamic atmosphere.
+            </p>
+            <h1 class="two">Culturals</h1>
+        </div>
+    </div><div class="secondhalf">
+        <div class="achievement">
+            
+            <img src="achievement.jpeg" id="achieve" onclick="achievement()">
+            
+            <p id="img3">Achievements are the tangible milestones that mark one's journey of growth and success. They come in various forms, ranging from personal triumphs to professional milestones. 
+                Each achievement signifies not only the attainment of a goal but also the dedication.
+            </p>
+            
+            <h1 class="three">Achievement</h1>
+         </div>
+            <div class="upcoming">
+                
+                <img src="upcoming.jpg" id="upcome" onclick="upcoming()">
+                <p id="img4">
+                    Upcoming events bring an air of anticipation and excitement, promising moments of connection, learning, and celebration.
+                    From community gatherings to global conferences, these occasions serve as opportunities for people.
+                </p>
+                <h1 class="four">Upcoming Events</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="registration">
+            <center>
+                <h1><b>Registration Fees</b></h1>
+            </center>
+            <div class="fees">
+                <canvas id="rec" width="300px" height="400px" style="border:1px solid black"></canvas>
+                <div class="rec">
+                    <h1 style="color: black;" id="fee1"><b><i>Sports-₹150</i></b></h1>
+                    <h2 style="color: brown;">Events</h2>
+                    <h3>⦿100M Running</h3>
+                    <h3>⦿200M Running</h3>
+                    <h3>⦿Volley Ball</h3>
+                    <h3>⦿Throw Ball</h3>
+                    <h3>⦿Foot Ball</h3>
+                    <h3>⦿Basket Ball</h3>
+                    <h3>⦿Shuttle</h3>
+                  </div>
+                <canvas id="rec1" width="300px" height="400px" style="border:1px solid black"></canvas>
+                <div class="rec1">
+                    <h1 style="color: black;" id="fee2"><b><i>Culturals-₹100</i></b></h1>
+                    <h2 style="color: brown;">Events</h2>
+                    <h3>⦿Singing</h3>
+                    <h3>⦿Dancing</h3>
+                    <h3>⦿Debate</h3>
+                    <h3>⦿Tressure and Hunt</h3>
+                    <h3>⦿Solo Dance</h3>
+                    <h3>⦿Art and Craft</h3>
+                    <h3>⦿Drawing</h3>
+                </div>
+                <canvas id="rec2" width="300px" height="400px" style="border:1px solid black"></canvas>
+                <div class="rec2">
+                    <h1 style="color: black;" id="fee3"><b><i>Presentation-₹200</i></b></h>
+                    <h2 style="color: brown;">Topics</h2>
+                    <h3>⦿5G</h3>
+                    <h3>⦿AI in electric feild</h3>
+                    <h3>⦿Cloud computing</h3>
+                    <h3>⦿Chatgpt</h3>
+                    <h3>⦿Agriculture</h3>
+                    <h3>⦿Machine learning</h3>
+                    <h3>⦿Frontend</h3>
+                </div>
+                <canvas id="rec3" width="300px" height="400px" style="border:1px solid black"></canvas>
+                <div class="rec3">
+                    <h1 style="color: black;" id="fee4"><b><i>Fun Events-₹150</i></b></h1>
+                    <h2 style="color: brown;">Events</h2>
+                    <h3>⦿Puzzle Solving</h3>
+                    <h3>⦿Food Festival</h3>
+                    <h3>⦿Poetry slam</h3>
+                    <h3>⦿Fashion Show</h3>
+                    <h3>⦿Website Making</h3>
+                    <h3>⦿Short Film making</h3>
+                    <h3>⦿Photography</h3>
+                </div>
+            </div>
+        </div>
+        <div class="Aboutus" style="padding-right: 10px; margin-top: 100px;">
+            <h1 id="five"><b>About us</b></h1>
+            <hr>
+            <p id="para">
+                The Coimbatore Institute of Engineering and Technology (CIET), Coimbatore, Tamilnadu, India was established in 2001 by Kovai Kalaimagal Educational Trust (KKET) to provide quality education to the young community with the motto of "Light the Light Within".
+
+                The institute is located in a campus spreading over 26.5 acres, about 25 kms from Coimbatore city, the institute has a very picturesque and serene atmosphere surrounded by green hillocks.
+                Affiliated to Anna University, approved by AICTE.
+                Our motto "Light the Light Within"
+                Hostel facilities are available for both.
+                
+                <a href="https://g.co/kgs/nLUQ9r" id="link" style="text-decoration: none;">Link:https://Ciet//narasipuram,coimbatore-641109</a>
+            
+            </div>
+            <img src="ciet.jpg" id="ciet">
+            <div class="registeration">
+                <h1><b>Contact Details</b></h1>
+                <hr>
+                <a href="register.html" id="reg" style="text-decoration:none;">For registeration:https://ciet.eventregisteration</a><br>
+                <a href="info@cietcbe.edu.in" style="text-decoration: none;"id="email">📧Email:info@cietcbe.edu.in</a>
+                <h1><b>📞Contact Number</b></h1>
+                <h2 id="ten">+91 422-2970703</h2>
+                <h2 id="seven">+91 9790038605</h2>
+                <h2 id="eight">+91 9965658180</h2>
+                <h2 id="nine">+91 9965192996</h2>
+                <h1><b>⏰College Timing</b></h1>
+                <h2>Mon-Fri 9.00AM to 4.00PM</h2>
+            </div>
+    </body>
+</html>

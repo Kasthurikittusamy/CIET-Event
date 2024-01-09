@@ -1,0 +1,44 @@
+<head>
+    <script src="script.js"></script>
+</head>
+<div id="one">
+    <center>
+    <h1><b>Login</b></h1>
+<form>
+   <table attribute="1">
+        <tr>
+            <td>Student Name</td><td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td>Password</td><td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td>Id</td><td><input type="text"></td>
+        </tr>
+    </table>
+</form>
+
+</center>
+<center>
+<input type="submit" id="submit" onclick="profile()">
+</center>
+</div>
+
+<style>
+    #one{
+        margin-top: 8%;
+        
+    }
+    *{
+        line-height: 3;
+        background-color:#666;
+        color: white;
+    }
+    #submit{
+        transition: 0.6s;
+    }
+    #submit:hover{
+        transform: scale(1.5);
+    }
+    
+</style>
