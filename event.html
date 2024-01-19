@@ -138,8 +138,66 @@
                 <a href="https://g.co/kgs/nLUQ9r" id="link" style="text-decoration: none;">Link:https://Ciet//narasipuram,coimbatore-641109</a>
             
             </div>
-            <img src="ciet.jpg" id="ciet">
+            <div class="imagegallery">
+                <center>
+                    <h1 id="imagegallery">Images</h1>
+                </center>
+                <div class="imageshow">
+                    <div class="image-line">
+                        <img src="image1.jpeg" id="plant1">
+                        <img src="image2.jpeg" id="plant2">
+                        <img src="image3.jpeg" id="plant3">
+                        <img src="image4.jpeg" id="plant4">
+                        
+                    </div>
+                    <div class="image-line">
+                        <img src="image6.jpeg" id="plant6">
+                        <img src="image7.jpeg" id="plant7">
+                        <img src="image8.jpg" id="plant8">
+                  </div>
+                </div>
+                
+                <style>
+                    .imageshow {
+                        display: flex;
+                        overflow: hidden;
+                    }
+                
+                    .image-line {
+                        display: flex;
+                        animation: slide 20s linear infinite;
+                        white-space: nowrap;
+                        gap: 1.2rem;
+                    }
+                
+                    #plant1, #plant2, #plant3, #plant4, #plant6, #plant7, #plant8,#plant9{
+                        border-radius: 30px;
+                        border-color: black;
+                        border-style: solid;
+                        border-width: 5px;
+                        min-height: 50px;
+                        min-width: 500px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 50px;
+                    }
+                   
+                    @keyframes slide {
+                        0% {
+                            transform: translateX(0);
+                        }
+                        100% {
+                            transform: translateX(calc(-100% - 1.2rem));
+                        }
+                    }
+    
+    
+                </style>
+                </div>
+            <img src="ciet.jpg" id="ciet" style="margin-top: 100px;">
             <div class="registeration">
+                
                 <h1><b>Contact Details</b></h1>
                 <hr>
                 <a href="register.html" id="reg" style="text-decoration:none;">For registeration:https://ciet.eventregisteration</a><br>
@@ -151,59 +209,8 @@
                 <h2 id="nine">+91 9965192996</h2>
                 <h1><b>⏰College Timing</b></h1>
                 <h2>Mon-Fri 9.00AM to 4.00PM</h2>
+           
             </div> 
-            <div class="imagegallery">
-            <center>
-                <h1 id="imagegallery">Images</h1>
-            </center>
-            <div class="imageshow" style="margin:0%">
-                <div class="image-line">
-                    <img src="image1.jpeg" id="plant1">
-                    <img src="image2.jpeg" id="plant2">
-                    <img src="image3.jpeg" id="plant3">
-                    <img src="image4.jpeg" id="plant4">
-                    
-                </div>
-                <div class="image-line">
-                    <img src="image6.jpeg" id="plant6">
-                    <img src="image7.jpeg" id="plant7">
-                    <img src="image8.jpg" id="plant8">
-              </div>
-            </div>
-            
-            <style>
-                .imageshow {
-                    display: flex;
-                    overflow: hidden;
-                }
-            
-                .image-line {
-                    display: flex;
-                    animation: slide 20s linear infinite;
-                    white-space: nowrap;
-                    gap: 1.2rem;
-                }
-            
-                #plant1, #plant2, #plant3, #plant4, #plant6, #plant7, #plant8,#plant9{
-                    border-radius: 50px;
-                    min-height: 50px;
-                    min-width: 500px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-               
-                @keyframes slide {
-                    0% {
-                        transform: translateX(0);
-                    }
-                    100% {
-                        transform: translateX(calc(-100% - 1.2rem));
-                    }
-                }
-
-
-            </style>
-            </div>
+          
     </body>
 </html>
